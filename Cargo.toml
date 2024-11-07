@@ -1,0 +1,9 @@
+[package]
+name = "anki_sql"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anki = {git = "https://github.com/ankitects/anki", features = ["bench"] , tag = "24.06.3" }
+anyhow = "1.0.92"
+dirs = "5.0.1"
